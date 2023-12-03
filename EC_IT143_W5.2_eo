@@ -1,0 +1,25 @@
+Create table my_soccer(
+	Team_name int,
+	Palyer_Id int,
+	Player_name varchar,
+	Player_position int,
+	)
+	
+Select * from
+	my_soccer
+	
+context.append( {'Player':'Team', 'Position':"""
+first table: 
+{
+  "playerName": "Team",
+  "Position": [
+    {
+      "Palyer_Id": "ID_Ply",
+      "Position": "int"
+    },
+    {
+      "Team_Name": "T_name",
+      "Team_Name": "string"
+    }
+  ]
+}
